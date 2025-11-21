@@ -1,0 +1,17 @@
+{
+  "name": "seacheck-netlify",
+  "version": "1.0.0",
+  "description": "Gift Card Balance Checker with Admin Panel",
+  "main": "netlify/functions/api.js",
+  "scripts": {
+    "build": "echo 'No build process'",
+    "dev": "netlify dev"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "mongodb": "^5.8.0"
+  },
+  "devDependencies": {
+    "netlify-cli": "^15.0.0"
+  }
+}
